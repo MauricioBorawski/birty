@@ -1,0 +1,6 @@
+model Event {
+  id Int @id @default(autoincrement())
+  name String
+  day DateTime
+  guilId Int
+}
